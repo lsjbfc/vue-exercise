@@ -1,0 +1,130 @@
+{
+  "hot": {
+    "title": "门店爆款",
+    "hot": [
+      {
+        "ID": 1101,
+        "name": "SH-G5801",
+        "url": "../../static/imgs/hot1.jpg",
+        "price":1500,
+        "jieshao":"家用室内静音健身车"
+      },
+      {
+        "ID": 1102,
+        "name": "SH-G5805",
+        "url": "../../static/imgs/hot2.jpg",
+        "price":6980,
+        "jieshao":"舒华卧式健身车"
+      },
+      {
+        "ID": 1103,
+        "name": "SH-G5814",
+        "url": "../../static/imgs/hot3.jpg",
+        "pice":8690,
+        "jieshao":"舒华TRUE商用程控卧式单车"
+      },
+      {
+        "ID": 1110,
+        "name": "SH-G5810",
+        "url": "../../static/imgs/hot4.jpg",
+        "price":5800,
+        "jieshao":"舒华TRUE商用程控立式单车"
+      },
+      {
+        "ID": 1115,
+        "name": "SH-G5820",
+        "url": "../../static/imgs/hot5.jpg",
+        "price":4600,
+        "jieshao":"舒华TRUE商用程控立式单车"
+      }
+      ,{
+        "ID": 1115,
+        "name": "SH-G5820",
+        "url": "../../static/imgs/hot5.jpg",
+        "price":29000,
+        "jieshao":"舒华TRUE商用程控卧式单车"
+      },
+      {
+        "ID": 1115,
+        "name": "SH-G5820",
+        "url": "../../static/imgs/hot5.jpg",
+        "price":7400,
+        "jieshao":"家用室内静音健身车"
+      }
+
+    ]
+  },
+  "cls":{
+     "title":"分类",
+      "cls":[{
+          "ID":"120",
+          "url":"../../static/imgs/fenl1.png",
+          "name":"跑步机/智能"
+        },
+        {
+          "ID":"110",
+          "url":"../../static/imgs/fenl2.png",
+          "name":"健身车/动感"
+
+        },
+        {
+          "ID":"120",
+          "url":"../../static/imgs/fenl3.png",
+          "name":"椭圆机/倒立机"
+
+        },
+        {
+          "ID":"136",
+          "url":"../../static/imgs/fenl4.png",
+          "name":"肌肉训练"
+        },
+        {
+          "ID":"176",
+          "url":"../../static/imgs/fenl5.png",
+          "name":"哑铃/仰卧板"
+        },
+        {
+          "ID":"206",
+          "url":"../../static/imgs/fenl6.png",
+          "name":"瑜伽运动"
+        },
+        {
+          "ID":"216",
+          "url":"../../static/imgs/fenl7.png",
+          "name":"按摩养生"
+        },
+        {
+          "ID":"226",
+          "url":"../../static/imgs/fenl8.png",
+          "name":"户外路径"
+        }
+      ]
+  },
+  "Recommend":{
+    "title":"精品推荐",
+     "Recommend":[
+       {
+         "ID":"R102",
+         "name":"SH-9119系列",
+         "introduce":"SH-9119系列 舒华家用线上爆款跑步机",
+         "url":"../../static/imgs/R1.jpg",
+         "price":"3299"
+       },
+       {
+         "ID":"R103",
+         "name":"SH-T5115I",
+         "introduce":"SH-T5115I 舒华罗伯特智能跑步机",
+         "url":"../../static/imgs/R2.jpg",
+         "price":"6980"
+       },{
+         "ID":"R104",
+         "name":"SH-5517",
+         "introduce":"SH-5517 “里约中国之家专供款”舒华X5跑步机",
+         "url":"../../static/imgs/R2.jpg",
+         "price":"11998"
+       }
+     ]
+  }
+
+
+}
