@@ -13,15 +13,18 @@
          <b>属性</b>{{deta.att}}
       </p>
       <div>
-        <ul class="info" @click="change">
-          <li class="cur">商品详情</li>
-          <li>图片详情</li>
-          <li>保养售后</li>
+        <ul class="info" >
+          <li v-for="item in list" :class="{cur:isshow==item}" @click="change" :data-cur="item">{{item}}</li>
+
         </ul>
       </div>
     <!--<component :is="商品详情"></component>-->
       <!--<component></component>-->
-    <component :is="show" :Goods="deta"></component>
+    <keep-alive>
+      <transition>
+        <component :is="show" :Goods="deta"></component>
+      </transition>
+    </keep-alive>
     <Join></Join>
   </div>
 </template>
@@ -61,6 +64,9 @@
           right:"icon-icon-home",
           si:false
         },
+        list:["商品详情","图片详情","保养售后"],
+        isshow:"商品详情"
+        ,
         deta:"",
         Gods:Goods,
         Imde:Imde,
@@ -81,6 +87,7 @@
         change:function (e){
             const i="图片详情";
             const g="商品详情";
+            this.isshow=e.target.getAttribute("data-cur");
 //            const Gods/**/="商品详情";
             if (e.target.nodeName!=="UL") {
                 if(e.target.innerText===g){

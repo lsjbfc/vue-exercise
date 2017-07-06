@@ -2,7 +2,7 @@
     <div class="cart">
         <div class="first"><i></i></div>
         <div><i></i></div>
-        <div><span>加入购物车</span></div>
+        <div><span @click="buy">加入购物车</span></div>
     </div>
 </template>
 <script>
@@ -12,6 +12,11 @@
       return {
 
       }
+    },
+    methods:{
+        buy(){
+            console.log("maimai")
+        }
     }
   }
 </script>

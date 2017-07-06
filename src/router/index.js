@@ -27,7 +27,7 @@ export default new Router({
       component:Trolley
     },
     {
-      path:"/Details",
+      path:"/Details/:details",
       name:"details",
       component:Details
     },

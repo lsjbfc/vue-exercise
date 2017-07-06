@@ -11,7 +11,7 @@
       <img src="../../static/imgs/p1.jpg">
     </div>
     <ul class="two-list">
-        <li><img src="../../static/imgs/p2.jpg"></li>
+        <li @click="gotoDet" data-id="9527"><img src="../../static/imgs/p2.jpg"></li>
         <li><img src="../../static/imgs/p3.jpg"></li>
     </ul>
     <div class="one-list">
@@ -96,6 +96,13 @@
       Cls,
       Recommend,
       Hea
+    },
+    methods:{
+        gotoDet:function (e) {
+          var i=e.currentTarget.getAttribute("data-id");
+          console.log(i);
+          this.$router.push({name:"details",params:{details:i}})
+        }
     }
   }
 

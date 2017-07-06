@@ -62,9 +62,10 @@
   }
 </script>
 <style scoped>
-  .main{padding: 45px 0;}
+  .main{padding: 45px 0;background-color: #f0f0f0}
    .unline{border-bottom:1px solid #c62026;color:#c62026;}
-   li{list-style:none;padding:5px 0;text-align: center}
+   .listclr li{width:48%;background-color:#FFF;margin-bottom:10px}
+   li{list-style:none;padding:5px 0;text-align: center;}
   .lis{display:flex;justify-content: space-around;align-items:center}
   .listclr li{width:48%;display: flex;flex-direction: column;align-items: flex-start}
   .listclr{display:flex;flex-wrap:wrap;justify-content: space-between;}

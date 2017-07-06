@@ -1,6 +1,6 @@
 <template>
    <div>
-        {{Goods}}
+        <img  v-for="item in Goods.imde" :src="item"  />
    </div>
 </template>
 <script>
@@ -22,5 +22,5 @@
   }
 </script>
 <style scoped>
-
+ img{width:100%}
 </style>
