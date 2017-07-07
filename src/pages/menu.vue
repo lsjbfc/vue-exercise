@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="menu">
     <Hea :opt="opt"></Hea>
     <ul @click="change" class="list">
         <li v-for="item in lists"  :class="{cur:current==item.id}"  :data-id="item.id" @click="change">{{item.li}}</li>
@@ -61,4 +61,5 @@
  ul{width:30%;display: flex;flex-direction:column;align-items: flex-start;background-color:#f2f2f2;height:100%;padding-top:45px;float:left;}
  li{list-style:none;width:100%;height:45px;line-height:45px;text-align:center;border-right:1px solid #e5e5e5;border-bottom:1px  solid #e5e5e5;background-color:#f2f2f2}
   .cur{border-right:#FFFFFF;background-color:#FFF;color:#d57274}
+  .menu{height:100%}
 </style>

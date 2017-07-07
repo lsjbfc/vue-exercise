@@ -1,14 +1,13 @@
 <template>
   <footer>
-
      <div>
-       <router-link to="/"><i class="icon iconfont icon-icon-home"></i></router-link>
+         <i class="icon iconfont icon-iconsouye" @click="sy"></i>
      </div>
     <div>
-      <router-link to="./trol"><i class="icon iconfont icon-gouwuche"></i></router-link>
+       <i class="icon iconfont icon-gouwuche"  @click="gwc"></i>
     </div>
     <div>
-      <router-link to="./login"><i class="icon iconfont icon-geren"></i></router-link>
+       <i class="icon iconfont icon-geren" @click="login"></i>
     </div>
   </footer>
 </template>
@@ -21,6 +20,17 @@
       return {
 
       }
+    },
+    methods:{
+        sy(){
+            this.$router.push("/")
+        },
+        gwc(){
+            this.$router.push("./trol")
+        },
+        login(){
+            this.$router.push("./login")
+        }
     }
   }
 </script>
@@ -32,4 +42,5 @@
     display:flex;justify-content:space-around;align-items:center;
     color:#FFF;font-size:20px;
   }
+  div i {font-size:20px}
 </style>
